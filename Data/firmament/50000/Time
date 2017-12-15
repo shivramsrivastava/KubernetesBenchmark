@@ -1,0 +1,36 @@
+kubernetes@kubernetes-kubemark-master:~$ ./running.sh poseidon.yaml 50000  sched interval: 2
+Time at the start:  15:23:35:919592323
+No of pods pending at the start:  17240
+NUM_PODS to be submitted is  50000
+Inside loop:  15:24:41:356950759  19585
+Inside loop:  15:25:25:014879853  22736
+Inside loop:  15:26:08:401258252  25378
+Inside loop:  15:26:52:113364737  26618
+Inside loop:  15:27:37:456728447  28873
+Inside loop:  15:28:22:103444862  32889
+Inside loop:  15:29:06:755889267  35879
+Inside loop:  15:29:52:851100684  38355
+Inside loop:  15:30:40:537242677  42048
+Inside loop:  15:31:26:944354409  44827
+Inside loop:  15:32:15:342166392  47140
+Inside loop:  15:33:02:896413054  50000
+
+
+kubernetes@dedicated-machine:~$ ./poseidon_pod_controller -kubeConfig /home/kubernetes/kubeconfig.kubemark -enableLatTest true -podCount 50000 -podPrefixName poseidon -alsologtostderr 2>&1 | tee op
+ERROR: logging before flag.Parse: I1215 15:53:54.242748    8445 podLatency.go:78] 0
+I1215 15:53:54.242840    8445 podLatency.go:477] Starting latencttest...
+I1215 15:53:54.246130    8445 podLatency.go:223] Starting PodWatcher...
+I1215 15:53:54.246263    8445 podLatency.go:448] 0
+I1215 15:53:55.246456    8445 podLatency.go:448] 0
+I1215 15:53:56.246663    8445 podLatency.go:448] 0
+I1215 15:53:57.246811    8445 podLatency.go:448] 0
+I1215 15:53:58.247002    8445 podLatency.go:448] 0
+I1215 15:53:59.247236    8445 podLatency.go:448] 0
+I1215 15:54:00.247403    8445 podLatency.go:448] 0
+I1215 15:54:01.247649    8445 podLatency.go:448] 0
+I1215 15:54:02.247866    8445 podLatency.go:448] 0
+I1215 15:54:03.248038    8445 podLatency.go:448] 0
+I1215 15:54:04.248231    8445 podLatency.go:448] 31442
+I1215 15:54:05.248426    8445 podLatency.go:448] 45424
+I1215 15:54:06.598290    8445 podLatency.go:435] Done processing all the pods
+I1215 15:54:06.615745    8445 podLatency.go:464] 2017-12-15 15:21:41 +0000 UTC 2017-12-15 15:32:15 +0000 UTC Throughput is 10m34

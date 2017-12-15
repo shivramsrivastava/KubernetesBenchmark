@@ -1,0 +1,412 @@
+Log file created at: 2017/12/15 19:38:12
+Running on machine: dedicated-machine
+Binary: Built with gc go1.9.2 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 19:38:12.709805   10769 poseidon.go:122] Starting Poseidon...
+I1215 19:38:12.710554   10769 stats.go:211] Starting stats server...
+I1215 19:38:12.711676   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 1.249483ms Start:2017-12-15 19:38:12.710417885 +0000 UTC m=+0.060143192 End:2017-12-15 19:38:12.711667389 +0000 UTC m=+0.061392675
+I1215 19:38:12.711706   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 0 no of pods to get a delta 1.249483ms
+I1215 19:38:12.715030   10769 k8sclient.go:119] k8s newclient called
+I1215 19:38:12.715043   10769 podwatcher.go:67] Starting PodWatcher...
+I1215 19:38:12.715583   10769 nodewatcher.go:40] Starting NodeWatcher...
+I1215 19:38:12.715655   10769 nodewatcher.go:203] Geting node updates...
+I1215 19:38:12.715687   10769 podwatcher.go:256] Getting pod updates...
+I1215 19:38:12.815954   10769 podwatcher.go:265] Starting pod watching workers
+I1215 19:38:14.415794   10769 nodewatcher.go:212] Starting node watching workers
+I1215 19:38:22.712234   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 408.577µs Start:2017-12-15 19:38:22.711815602 +0000 UTC m=+10.061540893 End:2017-12-15 19:38:22.712224213 +0000 UTC m=+10.061949470
+I1215 19:38:22.712265   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 0 no of pods to get a delta 1.65806ms
+I1215 19:38:32.712801   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 416.61µs Start:2017-12-15 19:38:32.712369617 +0000 UTC m=+20.062094945 End:2017-12-15 19:38:32.71278629 +0000 UTC m=+20.062511555
+I1215 19:38:32.712841   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 0 no of pods to get a delta 2.07467ms
+I1215 19:38:42.714246   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 346.92µs Start:2017-12-15 19:38:42.713883868 +0000 UTC m=+30.063609197 End:2017-12-15 19:38:42.714230852 +0000 UTC m=+30.063956117
+I1215 19:38:42.714288   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 0 no of pods to get a delta 2.42159ms
+I1215 19:38:52.714842   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 425.532µs Start:2017-12-15 19:38:52.714403564 +0000 UTC m=+40.064128878 End:2017-12-15 19:38:52.714829146 +0000 UTC m=+40.064554410
+I1215 19:38:52.714893   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 0 no of pods to get a delta 2.847122ms
+I1215 19:39:01.029964   10769 podwatcher.go:315]  Benchmark: Timestamp at which 1st task is being submitted to firmament.
+I1215 19:39:03.297260   10769 poseidon.go:67] Benchmark: Time taken for 2124 no of pods to get a delta 582.257741ms Start:2017-12-15 19:39:02.714988285 +0000 UTC m=+50.064713596 End:2017-12-15 19:39:03.297246047 +0000 UTC m=+50.646971337
+I1215 19:39:03.297298   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 2124 no of pods to get a delta 585.104863ms
+I1215 19:39:13.983831   10769 poseidon.go:67] Benchmark: Time taken for 2450 no of pods to get a delta 672.493501ms Start:2017-12-15 19:39:13.311322619 +0000 UTC m=+60.661047915 End:2017-12-15 19:39:13.983816054 +0000 UTC m=+61.333541416
+I1215 19:39:13.983873   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 4574 no of pods to get a delta 1.257598364s
+I1215 19:39:14.513346   10769 k8sclient.go:55] Could not bind %vPost https://35.225.181.123/api/v1/namespaces/default/pods/cpuspin54-7pqcj/binding: http2: no cached connection was available
+W1215 19:39:19.691984   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 19812546 (19813133)
+I1215 19:39:24.894680   10769 poseidon.go:67] Benchmark: Time taken for 3663 no of pods to get a delta 906.955001ms Start:2017-12-15 19:39:23.987712086 +0000 UTC m=+71.337437382 End:2017-12-15 19:39:24.894667125 +0000 UTC m=+72.244392383
+I1215 19:39:24.894707   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 8237 no of pods to get a delta 2.164553365s
+I1215 19:39:35.763598   10769 poseidon.go:67] Benchmark: Time taken for 1653 no of pods to get a delta 860.04831ms Start:2017-12-15 19:39:34.903534935 +0000 UTC m=+82.253260280 End:2017-12-15 19:39:35.763583288 +0000 UTC m=+83.113308590
+I1215 19:39:35.763636   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 9890 no of pods to get a delta 3.024601675s
+I1215 19:39:46.688515   10769 poseidon.go:67] Benchmark: Time taken for 2430 no of pods to get a delta 922.849377ms Start:2017-12-15 19:39:45.76565171 +0000 UTC m=+93.115377001 End:2017-12-15 19:39:46.68850108 +0000 UTC m=+94.038226378
+I1215 19:39:46.688556   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 12320 no of pods to get a delta 3.947451052s
+I1215 19:39:57.735368   10769 poseidon.go:67] Benchmark: Time taken for 1601 no of pods to get a delta 1.043677411s Start:2017-12-15 19:39:56.691677996 +0000 UTC m=+104.041403305 End:2017-12-15 19:39:57.735355456 +0000 UTC m=+105.085080716
+I1215 19:39:57.735397   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 13921 no of pods to get a delta 4.991128463s
+I1215 19:40:08.766938   10769 poseidon.go:67] Benchmark: Time taken for 296 no of pods to get a delta 1.029772323s Start:2017-12-15 19:40:07.737151007 +0000 UTC m=+115.086876290 End:2017-12-15 19:40:08.766923351 +0000 UTC m=+116.116648613
+I1215 19:40:08.766976   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 14217 no of pods to get a delta 6.020900786s
+I1215 19:40:19.916105   10769 poseidon.go:67] Benchmark: Time taken for 515 no of pods to get a delta 1.148608981s Start:2017-12-15 19:40:18.767480284 +0000 UTC m=+126.117205643 End:2017-12-15 19:40:19.916089297 +0000 UTC m=+127.265814624
+I1215 19:40:19.916146   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 14732 no of pods to get a delta 7.169509767s
+W1215 19:40:25.032384   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 19935167 (19937362)
+I1215 19:40:31.160674   10769 poseidon.go:67] Benchmark: Time taken for 393 no of pods to get a delta 1.243749146s Start:2017-12-15 19:40:29.916909282 +0000 UTC m=+137.266634624 End:2017-12-15 19:40:31.160658473 +0000 UTC m=+138.510383770
+I1215 19:40:31.160718   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 15125 no of pods to get a delta 8.413258913s
+I1215 19:40:42.596897   10769 poseidon.go:67] Benchmark: Time taken for 1712 no of pods to get a delta 1.435412159s Start:2017-12-15 19:40:41.161470539 +0000 UTC m=+148.511195843 End:2017-12-15 19:40:42.596882696 +0000 UTC m=+149.946608002
+I1215 19:40:42.596942   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 16837 no of pods to get a delta 9.848671072s
+I1215 19:40:54.063012   10769 poseidon.go:67] Benchmark: Time taken for 1277 no of pods to get a delta 1.463710611s Start:2017-12-15 19:40:52.599285593 +0000 UTC m=+159.949010907 End:2017-12-15 19:40:54.062996218 +0000 UTC m=+161.412721518
+I1215 19:40:54.063052   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 18114 no of pods to get a delta 11.312381683s
+I1215 19:41:05.738010   10769 poseidon.go:67] Benchmark: Time taken for 817 no of pods to get a delta 1.673296975s Start:2017-12-15 19:41:04.064701723 +0000 UTC m=+171.414427075 End:2017-12-15 19:41:05.737998793 +0000 UTC m=+173.087724050
+I1215 19:41:05.738039   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 18931 no of pods to get a delta 12.985678658s
+I1215 19:41:17.205864   10769 poseidon.go:67] Benchmark: Time taken for 893 no of pods to get a delta 1.466759239s Start:2017-12-15 19:41:15.739088786 +0000 UTC m=+183.088814098 End:2017-12-15 19:41:17.205848051 +0000 UTC m=+184.555573337
+I1215 19:41:17.205906   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 19824 no of pods to get a delta 14.452437897s
+I1215 19:41:29.047095   10769 poseidon.go:67] Benchmark: Time taken for 1264 no of pods to get a delta 1.839885757s Start:2017-12-15 19:41:27.207193382 +0000 UTC m=+194.556918738 End:2017-12-15 19:41:29.047079166 +0000 UTC m=+196.396804495
+I1215 19:41:29.047126   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 21088 no of pods to get a delta 16.292323654s
+I1215 19:41:41.025162   10769 poseidon.go:67] Benchmark: Time taken for 1070 no of pods to get a delta 1.976335028s Start:2017-12-15 19:41:39.048809401 +0000 UTC m=+206.398534668 End:2017-12-15 19:41:41.025144362 +0000 UTC m=+208.374869696
+I1215 19:41:41.025247   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 22158 no of pods to get a delta 18.268658682s
+W1215 19:41:43.689276   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20091532 (20107820)
+I1215 19:41:53.103630   10769 poseidon.go:67] Benchmark: Time taken for 981 no of pods to get a delta 2.076491986s Start:2017-12-15 19:41:51.027122505 +0000 UTC m=+218.376847855 End:2017-12-15 19:41:53.103614433 +0000 UTC m=+220.453339841
+I1215 19:41:53.103674   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 23139 no of pods to get a delta 20.345150668s
+I1215 19:42:05.149543   10769 poseidon.go:67] Benchmark: Time taken for 1110 no of pods to get a delta 2.044442063s Start:2017-12-15 19:42:03.105085639 +0000 UTC m=+230.454810980 End:2017-12-15 19:42:05.149527766 +0000 UTC m=+232.499253043
+I1215 19:42:05.149580   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 24249 no of pods to get a delta 22.389592731s
+I1215 19:42:17.226523   10769 poseidon.go:67] Benchmark: Time taken for 461 no of pods to get a delta 2.075080343s Start:2017-12-15 19:42:15.151422671 +0000 UTC m=+242.501148014 End:2017-12-15 19:42:17.226503039 +0000 UTC m=+244.576228357
+I1215 19:42:17.226567   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 24710 no of pods to get a delta 24.464673074s
+I1215 19:42:29.665829   10769 poseidon.go:67] Benchmark: Time taken for 119 no of pods to get a delta 2.438197823s Start:2017-12-15 19:42:27.227618175 +0000 UTC m=+254.577343451 End:2017-12-15 19:42:29.665816017 +0000 UTC m=+257.015541274
+I1215 19:42:29.665875   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 24829 no of pods to get a delta 26.902870897s
+I1215 19:42:42.087600   10769 poseidon.go:67] Benchmark: Time taken for 156 no of pods to get a delta 2.421396475s Start:2017-12-15 19:42:39.666182578 +0000 UTC m=+267.015907905 End:2017-12-15 19:42:42.087579104 +0000 UTC m=+269.437304380
+I1215 19:42:42.087653   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 24985 no of pods to get a delta 29.324267372s
+W1215 19:42:48.918583   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20190722 (20191606)
+I1215 19:42:54.689747   10769 poseidon.go:67] Benchmark: Time taken for 249 no of pods to get a delta 2.597994678s Start:2017-12-15 19:42:52.091737037 +0000 UTC m=+279.441462340 End:2017-12-15 19:42:54.689731736 +0000 UTC m=+282.039457018
+I1215 19:42:54.689816   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 25234 no of pods to get a delta 31.92226205s
+I1215 19:43:07.181685   10769 poseidon.go:67] Benchmark: Time taken for 309 no of pods to get a delta 2.491356468s Start:2017-12-15 19:43:04.690315283 +0000 UTC m=+292.040040603 End:2017-12-15 19:43:07.181671774 +0000 UTC m=+294.531397071
+I1215 19:43:07.181727   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 25543 no of pods to get a delta 34.413618518s
+I1215 19:43:19.810154   10769 poseidon.go:67] Benchmark: Time taken for 278 no of pods to get a delta 2.627859481s Start:2017-12-15 19:43:17.182285402 +0000 UTC m=+304.532010732 End:2017-12-15 19:43:19.810144955 +0000 UTC m=+307.159870213
+I1215 19:43:19.810184   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 25821 no of pods to get a delta 37.041477999s
+I1215 19:43:32.687936   10769 poseidon.go:67] Benchmark: Time taken for 282 no of pods to get a delta 2.877183505s Start:2017-12-15 19:43:29.810733136 +0000 UTC m=+317.160458462 End:2017-12-15 19:43:32.687916635 +0000 UTC m=+320.037641967
+I1215 19:43:32.687978   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 26103 no of pods to get a delta 39.918661504s
+I1215 19:43:45.593122   10769 poseidon.go:67] Benchmark: Time taken for 297 no of pods to get a delta 2.904600304s Start:2017-12-15 19:43:42.6885067 +0000 UTC m=+330.038232013 End:2017-12-15 19:43:45.593107014 +0000 UTC m=+332.942832317
+I1215 19:43:45.593165   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 26400 no of pods to get a delta 42.823261808s
+I1215 19:43:58.401446   10769 poseidon.go:67] Benchmark: Time taken for 1103 no of pods to get a delta 2.807702305s Start:2017-12-15 19:43:55.593728626 +0000 UTC m=+342.943453972 End:2017-12-15 19:43:58.401430983 +0000 UTC m=+345.751156277
+I1215 19:43:58.401487   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 27503 no of pods to get a delta 45.630964113s
+W1215 19:44:03.828155   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20265256 (20274503)
+I1215 19:44:11.412823   10769 poseidon.go:67] Benchmark: Time taken for 1032 no of pods to get a delta 3.009360482s Start:2017-12-15 19:44:08.403452871 +0000 UTC m=+355.753178208 End:2017-12-15 19:44:11.412813432 +0000 UTC m=+358.762538690
+I1215 19:44:11.412851   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 28535 no of pods to get a delta 48.640324595s
+I1215 19:44:24.357159   10769 poseidon.go:67] Benchmark: Time taken for 719 no of pods to get a delta 2.942944041s Start:2017-12-15 19:44:21.414199161 +0000 UTC m=+368.763924463 End:2017-12-15 19:44:24.357143209 +0000 UTC m=+371.706868504
+I1215 19:44:24.357232   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 29254 no of pods to get a delta 51.583268636s
+I1215 19:44:37.660033   10769 poseidon.go:67] Benchmark: Time taken for 542 no of pods to get a delta 3.301602081s Start:2017-12-15 19:44:34.358413979 +0000 UTC m=+381.708139299 End:2017-12-15 19:44:37.660016076 +0000 UTC m=+385.009741380
+I1215 19:44:37.660076   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 29796 no of pods to get a delta 54.884870717s
+I1215 19:44:50.842172   10769 poseidon.go:67] Benchmark: Time taken for 491 no of pods to get a delta 3.178912617s Start:2017-12-15 19:44:47.663244307 +0000 UTC m=+395.012969599 End:2017-12-15 19:44:50.842156937 +0000 UTC m=+398.191882216
+I1215 19:44:50.842221   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 30287 no of pods to get a delta 58.063783334s
+I1215 19:45:04.427991   10769 poseidon.go:67] Benchmark: Time taken for 545 no of pods to get a delta 3.584984324s Start:2017-12-15 19:45:00.842987711 +0000 UTC m=+408.192713048 End:2017-12-15 19:45:04.42797206 +0000 UTC m=+411.777697372
+I1215 19:45:04.428033   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 30832 no of pods to get a delta 1m1.648767658s
+W1215 19:45:09.414350   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20348526 (20349632)
+I1215 19:45:18.101567   10769 poseidon.go:67] Benchmark: Time taken for 668 no of pods to get a delta 3.672572896s Start:2017-12-15 19:45:14.428978842 +0000 UTC m=+421.778704188 End:2017-12-15 19:45:18.101551745 +0000 UTC m=+425.451277084
+I1215 19:45:18.101957   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 31500 no of pods to get a delta 1m5.321340554s
+I1215 19:45:31.139914   10769 poseidon.go:67] Benchmark: Time taken for 973 no of pods to get a delta 3.036960332s Start:2017-12-15 19:45:28.102938064 +0000 UTC m=+435.452663352 End:2017-12-15 19:45:31.139898366 +0000 UTC m=+438.489623684
+I1215 19:45:31.139957   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 32473 no of pods to get a delta 1m8.358300886s
+I1215 19:45:44.484562   10769 poseidon.go:67] Benchmark: Time taken for 1120 no of pods to get a delta 3.342887893s Start:2017-12-15 19:45:41.141663084 +0000 UTC m=+448.491388399 End:2017-12-15 19:45:44.484551034 +0000 UTC m=+451.834276292
+I1215 19:45:44.484587   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 33593 no of pods to get a delta 1m11.701188779s
+I1215 19:45:57.865730   10769 poseidon.go:67] Benchmark: Time taken for 1109 no of pods to get a delta 3.378502108s Start:2017-12-15 19:45:54.487209634 +0000 UTC m=+461.836934947 End:2017-12-15 19:45:57.86571177 +0000 UTC m=+465.215437055
+I1215 19:45:57.865771   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 34702 no of pods to get a delta 1m15.079690887s
+I1215 19:46:11.217920   10769 poseidon.go:67] Benchmark: Time taken for 773 no of pods to get a delta 3.35024784s Start:2017-12-15 19:46:07.86765598 +0000 UTC m=+475.217381272 End:2017-12-15 19:46:11.217903854 +0000 UTC m=+478.567629112
+I1215 19:46:11.218166   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 35475 no of pods to get a delta 1m18.429938727s
+W1215 19:46:24.076648   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20425149 (20435306)
+I1215 19:46:24.922848   10769 poseidon.go:67] Benchmark: Time taken for 106 no of pods to get a delta 3.703207113s Start:2017-12-15 19:46:21.219630363 +0000 UTC m=+488.569355649 End:2017-12-15 19:46:24.922837503 +0000 UTC m=+492.272562762
+I1215 19:46:24.922874   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 35581 no of pods to get a delta 1m22.13314584s
+I1215 19:46:38.647380   10769 poseidon.go:67] Benchmark: Time taken for 157 no of pods to get a delta 3.724171533s Start:2017-12-15 19:46:34.92319884 +0000 UTC m=+502.272924133 End:2017-12-15 19:46:38.647370408 +0000 UTC m=+505.997095666
+I1215 19:46:38.647409   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 35738 no of pods to get a delta 1m25.857317373s
+I1215 19:46:52.283256   10769 poseidon.go:67] Benchmark: Time taken for 232 no of pods to get a delta 3.635467944s Start:2017-12-15 19:46:48.647771776 +0000 UTC m=+515.997497074 End:2017-12-15 19:46:52.283239759 +0000 UTC m=+519.632965018
+I1215 19:46:52.283289   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 35970 no of pods to get a delta 1m29.492785317s
+I1215 19:47:06.613898   10769 poseidon.go:67] Benchmark: Time taken for 583 no of pods to get a delta 4.330136715s Start:2017-12-15 19:47:02.283750086 +0000 UTC m=+529.633475419 End:2017-12-15 19:47:06.613886876 +0000 UTC m=+533.963612134
+I1215 19:47:06.613929   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 36553 no of pods to get a delta 1m33.822922032s
+I1215 19:47:20.795117   10769 poseidon.go:67] Benchmark: Time taken for 561 no of pods to get a delta 4.179333034s Start:2017-12-15 19:47:16.615768906 +0000 UTC m=+543.965494225 End:2017-12-15 19:47:20.795101924 +0000 UTC m=+548.144827259
+I1215 19:47:20.795158   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 37114 no of pods to get a delta 1m38.002255066s
+I1215 19:47:35.564443   10769 poseidon.go:67] Benchmark: Time taken for 646 no of pods to get a delta 4.768379392s Start:2017-12-15 19:47:30.796048795 +0000 UTC m=+558.145774103 End:2017-12-15 19:47:35.564428213 +0000 UTC m=+562.914153495
+I1215 19:47:35.564476   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 37760 no of pods to get a delta 1m42.770634458s
+W1215 19:47:39.743445   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20513011 (20521942)
+I1215 19:47:50.086270   10769 poseidon.go:67] Benchmark: Time taken for 707 no of pods to get a delta 4.520784601s Start:2017-12-15 19:47:45.565470428 +0000 UTC m=+572.915195707 End:2017-12-15 19:47:50.086255004 +0000 UTC m=+577.435980308
+I1215 19:47:50.086321   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 38467 no of pods to get a delta 1m47.291419059s
+I1215 19:48:04.681081   10769 poseidon.go:67] Benchmark: Time taken for 894 no of pods to get a delta 4.593642635s Start:2017-12-15 19:48:00.087423067 +0000 UTC m=+587.437148385 End:2017-12-15 19:48:04.681065712 +0000 UTC m=+592.030791020
+I1215 19:48:04.681116   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 39361 no of pods to get a delta 1m51.885061694s
+I1215 19:48:20.046227   10769 poseidon.go:67] Benchmark: Time taken for 912 no of pods to get a delta 5.363867647s Start:2017-12-15 19:48:14.682347907 +0000 UTC m=+602.032073255 End:2017-12-15 19:48:20.046215642 +0000 UTC m=+607.395940902
+I1215 19:48:20.046266   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 40273 no of pods to get a delta 1m57.248929341s
+I1215 19:48:35.068336   10769 poseidon.go:67] Benchmark: Time taken for 953 no of pods to get a delta 5.017625384s Start:2017-12-15 19:48:30.050694919 +0000 UTC m=+617.400420189 End:2017-12-15 19:48:35.068320285 +0000 UTC m=+622.418045573
+I1215 19:48:35.068421   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 41226 no of pods to get a delta 2m2.266554725s
+I1215 19:48:50.103020   10769 poseidon.go:67] Benchmark: Time taken for 926 no of pods to get a delta 5.033132108s Start:2017-12-15 19:48:45.069872612 +0000 UTC m=+632.419598002 End:2017-12-15 19:48:50.103004807 +0000 UTC m=+637.452730110
+I1215 19:48:50.103060   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 42152 no of pods to get a delta 2m7.299686833s
+W1215 19:48:54.066660   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20596925 (20604149)
+I1215 19:49:05.673079   10769 poseidon.go:67] Benchmark: Time taken for 930 no of pods to get a delta 5.568754131s Start:2017-12-15 19:49:00.104308673 +0000 UTC m=+647.454033975 End:2017-12-15 19:49:05.673062808 +0000 UTC m=+653.022788106
+I1215 19:49:05.673125   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 43082 no of pods to get a delta 2m12.868440964s
+I1215 19:49:20.977632   10769 poseidon.go:67] Benchmark: Time taken for 906 no of pods to get a delta 5.302936141s Start:2017-12-15 19:49:15.674681033 +0000 UTC m=+663.024406338 End:2017-12-15 19:49:20.97761716 +0000 UTC m=+668.327342479
+I1215 19:49:20.977675   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 43988 no of pods to get a delta 2m18.171377105s
+I1215 19:49:36.291123   10769 poseidon.go:67] Benchmark: Time taken for 878 no of pods to get a delta 5.312093359s Start:2017-12-15 19:49:30.979010355 +0000 UTC m=+678.328735674 End:2017-12-15 19:49:36.291103678 +0000 UTC m=+683.640829033
+I1215 19:49:36.291168   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 44866 no of pods to get a delta 2m23.483470464s
+I1215 19:49:51.977236   10769 poseidon.go:67] Benchmark: Time taken for 839 no of pods to get a delta 5.684757684s Start:2017-12-15 19:49:46.292462318 +0000 UTC m=+693.642187614 End:2017-12-15 19:49:51.977219993 +0000 UTC m=+699.326945298
+I1215 19:49:51.977281   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 45705 no of pods to get a delta 2m29.168228148s
+I1215 19:50:07.804314   10769 poseidon.go:67] Benchmark: Time taken for 615 no of pods to get a delta 5.825654085s Start:2017-12-15 19:50:01.978645902 +0000 UTC m=+709.328371202 End:2017-12-15 19:50:07.804299994 +0000 UTC m=+715.154025287
+I1215 19:50:07.804357   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46320 no of pods to get a delta 2m34.993882233s
+W1215 19:50:08.743124   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20684968 (20693522)
+I1215 19:50:23.789247   10769 poseidon.go:67] Benchmark: Time taken for 57 no of pods to get a delta 5.983912398s Start:2017-12-15 19:50:17.805316259 +0000 UTC m=+725.155041571 End:2017-12-15 19:50:23.789228691 +0000 UTC m=+731.138953969
+I1215 19:50:23.789292   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46377 no of pods to get a delta 2m40.977794631s
+I1215 19:50:39.744092   10769 poseidon.go:67] Benchmark: Time taken for 99 no of pods to get a delta 5.954579754s Start:2017-12-15 19:50:33.789497935 +0000 UTC m=+741.139223224 End:2017-12-15 19:50:39.744077698 +0000 UTC m=+747.093802978
+I1215 19:50:39.744135   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46476 no of pods to get a delta 2m46.932374385s
+I1215 19:50:55.734205   10769 poseidon.go:67] Benchmark: Time taken for 115 no of pods to get a delta 5.989773323s Start:2017-12-15 19:50:49.744418998 +0000 UTC m=+757.094144327 End:2017-12-15 19:50:55.734192392 +0000 UTC m=+763.083917650
+I1215 19:50:55.734240   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46591 no of pods to get a delta 2m52.922147708s
+I1215 19:51:11.993905   10769 poseidon.go:67] Benchmark: Time taken for 159 no of pods to get a delta 6.259287792s Start:2017-12-15 19:51:05.734598061 +0000 UTC m=+773.084323372 End:2017-12-15 19:51:11.993885819 +0000 UTC m=+779.343611164
+I1215 19:51:11.993945   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46750 no of pods to get a delta 2m59.1814355s
+W1215 19:51:24.771773   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20770899 (20778979)
+I1215 19:51:28.399106   10769 poseidon.go:67] Benchmark: Time taken for 183 no of pods to get a delta 6.404750184s Start:2017-12-15 19:51:21.994339983 +0000 UTC m=+789.344065322 End:2017-12-15 19:51:28.399090181 +0000 UTC m=+795.748815506
+I1215 19:51:28.399146   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 46933 no of pods to get a delta 3m5.586185684s
+I1215 19:51:44.962073   10769 poseidon.go:67] Benchmark: Time taken for 212 no of pods to get a delta 6.562353076s Start:2017-12-15 19:51:38.399705564 +0000 UTC m=+805.749430917 End:2017-12-15 19:51:44.962058713 +0000 UTC m=+812.311783993
+I1215 19:51:44.962113   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 47145 no of pods to get a delta 3m12.14853876s
+I1215 19:52:01.851906   10769 poseidon.go:67] Benchmark: Time taken for 331 no of pods to get a delta 6.889280601s Start:2017-12-15 19:51:54.962609003 +0000 UTC m=+822.312334344 End:2017-12-15 19:52:01.851889588 +0000 UTC m=+829.201614945
+I1215 19:52:01.851952   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 47476 no of pods to get a delta 3m19.037819361s
+I1215 19:52:18.069309   10769 poseidon.go:67] Benchmark: Time taken for 492 no of pods to get a delta 6.216703176s Start:2017-12-15 19:52:11.852590553 +0000 UTC m=+839.202315874 End:2017-12-15 19:52:18.069293771 +0000 UTC m=+845.419019050
+I1215 19:52:18.069352   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 47968 no of pods to get a delta 3m25.254522537s
+I1215 19:52:34.840382   10769 poseidon.go:67] Benchmark: Time taken for 493 no of pods to get a delta 6.757127072s Start:2017-12-15 19:52:28.0832367 +0000 UTC m=+855.432961980 End:2017-12-15 19:52:34.840363766 +0000 UTC m=+862.190089052
+I1215 19:52:34.840418   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 48461 no of pods to get a delta 3m32.011649609s
+W1215 19:52:40.185814   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20847577 (20857397)
+I1215 19:52:51.802102   10769 poseidon.go:67] Benchmark: Time taken for 422 no of pods to get a delta 6.960798992s Start:2017-12-15 19:52:44.841289719 +0000 UTC m=+872.191015047 End:2017-12-15 19:52:51.802088781 +0000 UTC m=+879.151814039
+I1215 19:52:51.802132   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 48883 no of pods to get a delta 3m38.972448601s
+I1215 19:53:08.586282   10769 poseidon.go:67] Benchmark: Time taken for 430 no of pods to get a delta 6.77710379s Start:2017-12-15 19:53:01.809161736 +0000 UTC m=+889.158887061 End:2017-12-15 19:53:08.586265549 +0000 UTC m=+895.935990851
+I1215 19:53:08.586327   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 49313 no of pods to get a delta 3m45.749552391s
+I1215 19:53:25.460922   10769 poseidon.go:67] Benchmark: Time taken for 544 no of pods to get a delta 6.87377152s Start:2017-12-15 19:53:18.58714049 +0000 UTC m=+905.936865795 End:2017-12-15 19:53:25.460912057 +0000 UTC m=+912.810637315
+I1215 19:53:25.460958   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 49857 no of pods to get a delta 3m52.623323911s
+I1215 19:53:42.444516   10769 poseidon.go:67] Benchmark: Time taken for 804 no of pods to get a delta 6.982532235s Start:2017-12-15 19:53:35.461967308 +0000 UTC m=+922.811692607 End:2017-12-15 19:53:42.444499548 +0000 UTC m=+929.794224842
+I1215 19:53:42.444562   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 50661 no of pods to get a delta 3m59.605856146s
+W1215 19:53:57.339591   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 20929203 (20940070)
+I1215 19:53:59.427728   10769 poseidon.go:67] Benchmark: Time taken for 823 no of pods to get a delta 6.977768139s Start:2017-12-15 19:53:52.449945065 +0000 UTC m=+939.799670410 End:2017-12-15 19:53:59.42771327 +0000 UTC m=+946.777438549
+I1215 19:53:59.427766   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 51484 no of pods to get a delta 4m6.583624285s
+I1215 19:54:16.575118   10769 poseidon.go:67] Benchmark: Time taken for 844 no of pods to get a delta 7.146051579s Start:2017-12-15 19:54:09.429050551 +0000 UTC m=+956.778775899 End:2017-12-15 19:54:16.575102171 +0000 UTC m=+963.924827478
+I1215 19:54:16.575164   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 52328 no of pods to get a delta 4m13.729675864s
+I1215 19:54:34.269661   10769 poseidon.go:67] Benchmark: Time taken for 832 no of pods to get a delta 7.693172259s Start:2017-12-15 19:54:26.576477581 +0000 UTC m=+973.926202898 End:2017-12-15 19:54:34.269649899 +0000 UTC m=+981.619375157
+I1215 19:54:34.269687   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 53160 no of pods to get a delta 4m21.422848123s
+I1215 19:54:52.266227   10769 poseidon.go:67] Benchmark: Time taken for 834 no of pods to get a delta 7.995379694s Start:2017-12-15 19:54:44.27083316 +0000 UTC m=+991.620558448 End:2017-12-15 19:54:52.266212805 +0000 UTC m=+999.615938142
+I1215 19:54:52.266274   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 53994 no of pods to get a delta 4m29.418227817s
+I1215 19:55:09.559009   10769 poseidon.go:67] Benchmark: Time taken for 1046 no of pods to get a delta 7.291377373s Start:2017-12-15 19:55:02.267618791 +0000 UTC m=+1009.617344096 End:2017-12-15 19:55:09.55899621 +0000 UTC m=+1016.908721469
+I1215 19:55:09.559038   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 55040 no of pods to get a delta 4m36.70960519s
+W1215 19:55:10.440673   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21015407 (21023117)
+I1215 19:55:26.768590   10769 poseidon.go:67] Benchmark: Time taken for 968 no of pods to get a delta 7.207906728s Start:2017-12-15 19:55:19.560672873 +0000 UTC m=+1026.910398161 End:2017-12-15 19:55:26.768579632 +0000 UTC m=+1034.118304889
+I1215 19:55:26.768625   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 56008 no of pods to get a delta 4m43.917511918s
+I1215 19:55:44.184724   10769 poseidon.go:67] Benchmark: Time taken for 960 no of pods to get a delta 7.414777577s Start:2017-12-15 19:55:36.769936148 +0000 UTC m=+1044.119661462 End:2017-12-15 19:55:44.184713781 +0000 UTC m=+1051.534439039
+I1215 19:55:44.184753   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 56968 no of pods to get a delta 4m51.332289495s
+I1215 19:56:01.737661   10769 poseidon.go:67] Benchmark: Time taken for 358 no of pods to get a delta 7.551591012s Start:2017-12-15 19:55:54.186056368 +0000 UTC m=+1061.535781639 End:2017-12-15 19:56:01.737647393 +0000 UTC m=+1069.087372651
+I1215 19:56:01.737691   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 57326 no of pods to get a delta 4m58.883880507s
+I1215 19:56:19.352854   10769 poseidon.go:67] Benchmark: Time taken for 83 no of pods to get a delta 7.613592101s Start:2017-12-15 19:56:11.739247134 +0000 UTC m=+1079.088972442 End:2017-12-15 19:56:19.352839285 +0000 UTC m=+1086.702564543
+I1215 19:56:19.352890   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 57409 no of pods to get a delta 5m6.497472608s
+W1215 19:56:21.586035   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21099340 (21104423)
+I1215 19:56:36.681300   10769 poseidon.go:67] Benchmark: Time taken for 142 no of pods to get a delta 7.328152623s Start:2017-12-15 19:56:29.353133064 +0000 UTC m=+1096.702858397 End:2017-12-15 19:56:36.681285747 +0000 UTC m=+1104.031011020
+I1215 19:56:36.681338   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 57551 no of pods to get a delta 5m13.825625231s
+I1215 19:56:54.265464   10769 poseidon.go:67] Benchmark: Time taken for 248 no of pods to get a delta 7.583736699s Start:2017-12-15 19:56:46.681712861 +0000 UTC m=+1114.031438169 End:2017-12-15 19:56:54.265449611 +0000 UTC m=+1121.615174868
+I1215 19:56:54.265495   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 57799 no of pods to get a delta 5m21.40936193s
+I1215 19:57:12.602564   10769 poseidon.go:67] Benchmark: Time taken for 642 no of pods to get a delta 8.336544011s Start:2017-12-15 19:57:04.266004122 +0000 UTC m=+1131.615729433 End:2017-12-15 19:57:12.602548188 +0000 UTC m=+1139.952273444
+I1215 19:57:12.602593   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 58441 no of pods to get a delta 5m29.745905941s
+I1215 19:57:31.124893   10769 poseidon.go:67] Benchmark: Time taken for 683 no of pods to get a delta 8.521299138s Start:2017-12-15 19:57:22.603582464 +0000 UTC m=+1149.953307755 End:2017-12-15 19:57:31.124881635 +0000 UTC m=+1158.474606893
+I1215 19:57:31.124923   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 59124 no of pods to get a delta 5m38.267205079s
+W1215 19:57:32.757547   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21177298 (21181585)
+I1215 19:57:49.046677   10769 poseidon.go:67] Benchmark: Time taken for 652 no of pods to get a delta 7.920825492s Start:2017-12-15 19:57:41.12584008 +0000 UTC m=+1168.475565382 End:2017-12-15 19:57:49.046665615 +0000 UTC m=+1176.396390874
+I1215 19:57:49.046709   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 59776 no of pods to get a delta 5m46.188030571s
+I1215 19:58:06.934519   10769 poseidon.go:67] Benchmark: Time taken for 541 no of pods to get a delta 7.886148982s Start:2017-12-15 19:57:59.04835445 +0000 UTC m=+1186.398079776 End:2017-12-15 19:58:06.934503474 +0000 UTC m=+1194.284228758
+I1215 19:58:06.934555   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 60317 no of pods to get a delta 5m54.074179553s
+I1215 19:58:25.380898   10769 poseidon.go:67] Benchmark: Time taken for 635 no of pods to get a delta 8.445479772s Start:2017-12-15 19:58:16.935406591 +0000 UTC m=+1204.285131922 End:2017-12-15 19:58:25.380886437 +0000 UTC m=+1212.730611694
+I1215 19:58:25.380930   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 60952 no of pods to get a delta 6m2.519659325s
+W1215 19:58:43.330306   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21255058 (21258455)
+I1215 19:58:43.762597   10769 poseidon.go:67] Benchmark: Time taken for 780 no of pods to get a delta 8.379508386s Start:2017-12-15 19:58:35.383073403 +0000 UTC m=+1222.732798713 End:2017-12-15 19:58:43.762581839 +0000 UTC m=+1231.112307099
+I1215 19:58:43.762624   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 61732 no of pods to get a delta 6m10.899167711s
+I1215 19:59:02.520321   10769 poseidon.go:67] Benchmark: Time taken for 904 no of pods to get a delta 8.755766232s Start:2017-12-15 19:58:53.764540624 +0000 UTC m=+1241.114265920 End:2017-12-15 19:59:02.520306895 +0000 UTC m=+1249.870032152
+I1215 19:59:02.520354   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 62636 no of pods to get a delta 6m19.654933943s
+I1215 19:59:21.615228   10769 poseidon.go:67] Benchmark: Time taken for 1007 no of pods to get a delta 9.093668196s Start:2017-12-15 19:59:12.521547687 +0000 UTC m=+1259.871272993 End:2017-12-15 19:59:21.615215931 +0000 UTC m=+1268.964941189
+I1215 19:59:21.615261   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 63643 no of pods to get a delta 6m28.748602139s
+I1215 19:59:40.544151   10769 poseidon.go:67] Benchmark: Time taken for 921 no of pods to get a delta 8.926491721s Start:2017-12-15 19:59:31.617647657 +0000 UTC m=+1278.967372935 End:2017-12-15 19:59:40.544139398 +0000 UTC m=+1287.893864656
+I1215 19:59:40.544185   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 64564 no of pods to get a delta 6m37.67509386s
+W1215 19:59:53.559754   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21332074 (21336918)
+I1215 19:59:59.918562   10769 poseidon.go:67] Benchmark: Time taken for 971 no of pods to get a delta 9.373017984s Start:2017-12-15 19:59:50.545533504 +0000 UTC m=+1297.895258786 End:2017-12-15 19:59:59.918551511 +0000 UTC m=+1307.268276770
+I1215 19:59:59.918673   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 65535 no of pods to get a delta 6m47.048111844s
+I1215 20:00:19.123487   10769 poseidon.go:67] Benchmark: Time taken for 917 no of pods to get a delta 9.203375167s Start:2017-12-15 20:00:09.920096144 +0000 UTC m=+1317.269821438 End:2017-12-15 20:00:19.123471347 +0000 UTC m=+1326.473196605
+I1215 20:00:19.123518   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 66452 no of pods to get a delta 6m56.251487011s
+I1215 20:00:38.548345   10769 poseidon.go:67] Benchmark: Time taken for 929 no of pods to get a delta 9.423396035s Start:2017-12-15 20:00:29.12493699 +0000 UTC m=+1336.474662269 End:2017-12-15 20:00:38.548333046 +0000 UTC m=+1345.898058304
+I1215 20:00:38.548378   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 67381 no of pods to get a delta 7m5.674883046s
+I1215 20:00:58.078414   10769 poseidon.go:67] Benchmark: Time taken for 869 no of pods to get a delta 9.527801634s Start:2017-12-15 20:00:48.550578664 +0000 UTC m=+1355.900303947 End:2017-12-15 20:00:58.078380323 +0000 UTC m=+1365.428105581
+I1215 20:00:58.078445   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 68250 no of pods to get a delta 7m15.20268468s
+W1215 20:01:05.156893   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21414348 (21418645)
+I1215 20:01:18.184151   10769 poseidon.go:67] Benchmark: Time taken for 383 no of pods to get a delta 10.104377376s Start:2017-12-15 20:01:08.0797611 +0000 UTC m=+1375.429486398 End:2017-12-15 20:01:18.184138516 +0000 UTC m=+1385.533863774
+I1215 20:01:18.184183   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 68633 no of pods to get a delta 7m25.307062056s
+I1215 20:01:38.420325   10769 poseidon.go:67] Benchmark: Time taken for 785 no of pods to get a delta 10.235529611s Start:2017-12-15 20:01:28.184779592 +0000 UTC m=+1395.534504882 End:2017-12-15 20:01:38.420309235 +0000 UTC m=+1405.770034493
+I1215 20:01:38.420354   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 69418 no of pods to get a delta 7m35.542591667s
+I1215 20:01:58.404290   10769 poseidon.go:67] Benchmark: Time taken for 679 no of pods to get a delta 9.98006069s Start:2017-12-15 20:01:48.424210842 +0000 UTC m=+1415.773936169 End:2017-12-15 20:01:58.404271602 +0000 UTC m=+1425.753996859
+I1215 20:01:58.404324   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 70097 no of pods to get a delta 7m45.522652357s
+W1215 20:02:15.528577   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21494835 (21498113)
+I1215 20:02:17.991572   10769 poseidon.go:67] Benchmark: Time taken for 513 no of pods to get a delta 9.586295002s Start:2017-12-15 20:02:08.405265613 +0000 UTC m=+1435.754990929 End:2017-12-15 20:02:17.991560673 +0000 UTC m=+1445.341285931
+I1215 20:02:17.991604   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 70610 no of pods to get a delta 7m55.108947359s
+I1215 20:02:38.179748   10769 poseidon.go:67] Benchmark: Time taken for 544 no of pods to get a delta 10.187410934s Start:2017-12-15 20:02:27.992323674 +0000 UTC m=+1455.342048965 End:2017-12-15 20:02:38.179734641 +0000 UTC m=+1465.529459899
+I1215 20:02:38.179798   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 71154 no of pods to get a delta 8m5.296358293s
+I1215 20:02:58.409489   10769 poseidon.go:67] Benchmark: Time taken for 501 no of pods to get a delta 10.228977472s Start:2017-12-15 20:02:48.180501038 +0000 UTC m=+1475.530226347 End:2017-12-15 20:02:58.409478561 +0000 UTC m=+1485.759203819
+I1215 20:02:58.409519   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 71655 no of pods to get a delta 8m15.525335765s
+I1215 20:03:18.768610   10769 poseidon.go:67] Benchmark: Time taken for 613 no of pods to get a delta 10.358426392s Start:2017-12-15 20:03:08.410163754 +0000 UTC m=+1495.759889056 End:2017-12-15 20:03:18.768590191 +0000 UTC m=+1506.118315448
+I1215 20:03:18.768648   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 72268 no of pods to get a delta 8m25.883762157s
+W1215 20:03:27.773398   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21572520 (21577254)
+I1215 20:03:39.294241   10769 poseidon.go:67] Benchmark: Time taken for 927 no of pods to get a delta 10.524586255s Start:2017-12-15 20:03:28.769642314 +0000 UTC m=+1516.119367609 End:2017-12-15 20:03:39.294228606 +0000 UTC m=+1526.643953864
+I1215 20:03:39.294275   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 73195 no of pods to get a delta 8m36.408348412s
+I1215 20:03:59.498526   10769 poseidon.go:67] Benchmark: Time taken for 909 no of pods to get a delta 10.202905502s Start:2017-12-15 20:03:49.295605475 +0000 UTC m=+1536.645330804 End:2017-12-15 20:03:59.498511049 +0000 UTC m=+1546.848236306
+I1215 20:03:59.498553   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 74104 no of pods to get a delta 8m46.611253914s
+I1215 20:04:19.961940   10769 poseidon.go:67] Benchmark: Time taken for 829 no of pods to get a delta 10.461933201s Start:2017-12-15 20:04:09.49999543 +0000 UTC m=+1556.849720724 End:2017-12-15 20:04:19.961928668 +0000 UTC m=+1567.311653925
+I1215 20:04:19.961967   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 74933 no of pods to get a delta 8m57.073187115s
+I1215 20:04:40.743438   10769 poseidon.go:67] Benchmark: Time taken for 870 no of pods to get a delta 10.780280535s Start:2017-12-15 20:04:29.963143958 +0000 UTC m=+1577.312869362 End:2017-12-15 20:04:40.743424637 +0000 UTC m=+1588.093149897
+I1215 20:04:40.743472   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 75803 no of pods to get a delta 9m7.85346765s
+W1215 20:04:43.067131   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21653475 (21659338)
+I1215 20:05:01.523059   10769 poseidon.go:67] Benchmark: Time taken for 892 no of pods to get a delta 10.77817793s Start:2017-12-15 20:04:50.744869231 +0000 UTC m=+1598.094594544 End:2017-12-15 20:05:01.523047217 +0000 UTC m=+1608.872772474
+I1215 20:05:01.523090   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 76695 no of pods to get a delta 9m18.63164558s
+I1215 20:05:22.342334   10769 poseidon.go:67] Benchmark: Time taken for 801 no of pods to get a delta 10.816681145s Start:2017-12-15 20:05:11.525637065 +0000 UTC m=+1618.875362357 End:2017-12-15 20:05:22.34231823 +0000 UTC m=+1629.692043502
+I1215 20:05:22.342366   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 77496 no of pods to get a delta 9m29.448326725s
+I1215 20:05:43.247582   10769 poseidon.go:67] Benchmark: Time taken for 927 no of pods to get a delta 10.903852926s Start:2017-12-15 20:05:32.343717034 +0000 UTC m=+1639.693442353 End:2017-12-15 20:05:43.247570021 +0000 UTC m=+1650.597295279
+I1215 20:05:43.247608   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 78423 no of pods to get a delta 9m40.352179651s
+W1215 20:05:56.363787   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21735558 (21743797)
+I1215 20:06:04.205656   10769 poseidon.go:67] Benchmark: Time taken for 831 no of pods to get a delta 10.956697146s Start:2017-12-15 20:05:53.248944464 +0000 UTC m=+1660.598669751 End:2017-12-15 20:06:04.20564164 +0000 UTC m=+1671.555366897
+I1215 20:06:04.205684   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 79254 no of pods to get a delta 9m51.308876797s
+I1215 20:06:23.960464   10769 poseidon.go:67] Benchmark: Time taken for 139 no of pods to get a delta 9.753454037s Start:2017-12-15 20:06:14.20699696 +0000 UTC m=+1681.556722275 End:2017-12-15 20:06:23.960451053 +0000 UTC m=+1691.310176312
+I1215 20:06:23.960505   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 79393 no of pods to get a delta 10m1.062330834s
+I1215 20:06:43.907616   10769 poseidon.go:67] Benchmark: Time taken for 449 no of pods to get a delta 9.946798835s Start:2017-12-15 20:06:33.96080276 +0000 UTC m=+1701.310528053 End:2017-12-15 20:06:43.90760163 +0000 UTC m=+1711.257326888
+I1215 20:06:43.963547   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 79842 no of pods to get a delta 10m11.009129669s
+I1215 20:07:04.838242   10769 poseidon.go:67] Benchmark: Time taken for 763 no of pods to get a delta 10.873838771s Start:2017-12-15 20:06:53.96438485 +0000 UTC m=+1721.314110153 End:2017-12-15 20:07:04.838223575 +0000 UTC m=+1732.187948924
+I1215 20:07:04.838280   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 80605 no of pods to get a delta 10m21.88296844s
+W1215 20:07:09.963050   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21819794 (21826270)
+I1215 20:07:25.033950   10769 poseidon.go:67] Benchmark: Time taken for 802 no of pods to get a delta 10.194427444s Start:2017-12-15 20:07:14.839510904 +0000 UTC m=+1742.189236214 End:2017-12-15 20:07:25.0339384 +0000 UTC m=+1752.383663658
+I1215 20:07:25.033976   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 81407 no of pods to get a delta 10m32.077395884s
+I1215 20:07:45.613512   10769 poseidon.go:67] Benchmark: Time taken for 698 no of pods to get a delta 10.578300958s Start:2017-12-15 20:07:35.035197107 +0000 UTC m=+1762.384922406 End:2017-12-15 20:07:45.613498106 +0000 UTC m=+1772.963223364
+I1215 20:07:45.613544   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 82105 no of pods to get a delta 10m42.655696842s
+I1215 20:08:06.640237   10769 poseidon.go:67] Benchmark: Time taken for 843 no of pods to get a delta 11.025637097s Start:2017-12-15 20:07:55.6145817 +0000 UTC m=+1782.964306976 End:2017-12-15 20:08:06.640218803 +0000 UTC m=+1793.989944073
+I1215 20:08:06.640278   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 82948 no of pods to get a delta 10m53.681333939s
+W1215 20:08:22.811545   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21900954 (21904948)
+I1215 20:08:27.563703   10769 poseidon.go:67] Benchmark: Time taken for 725 no of pods to get a delta 10.921955674s Start:2017-12-15 20:08:16.641735055 +0000 UTC m=+1803.991460346 End:2017-12-15 20:08:27.563690761 +0000 UTC m=+1814.913416020
+I1215 20:08:27.563735   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 83673 no of pods to get a delta 11m4.603289613s
+I1215 20:08:47.996806   10769 poseidon.go:67] Benchmark: Time taken for 610 no of pods to get a delta 10.431963686s Start:2017-12-15 20:08:37.56483197 +0000 UTC m=+1824.914557283 End:2017-12-15 20:08:47.996795711 +0000 UTC m=+1835.346520969
+I1215 20:08:47.996834   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 84283 no of pods to get a delta 11m15.035253299s
+I1215 20:09:09.303398   10769 poseidon.go:67] Benchmark: Time taken for 591 no of pods to get a delta 11.305479493s Start:2017-12-15 20:08:57.997903723 +0000 UTC m=+1845.347628998 End:2017-12-15 20:09:09.303383232 +0000 UTC m=+1856.653108491
+I1215 20:09:09.303428   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 84874 no of pods to get a delta 11m26.340732792s
+I1215 20:09:29.055952   10769 poseidon.go:67] Benchmark: Time taken for 761 no of pods to get a delta 9.749174529s Start:2017-12-15 20:09:19.306765601 +0000 UTC m=+1866.656490880 End:2017-12-15 20:09:29.055940152 +0000 UTC m=+1876.405665409
+I1215 20:09:29.055985   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 85635 no of pods to get a delta 11m36.089907321s
+W1215 20:09:34.191927   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 21978198 (21982721)
+I1215 20:09:49.398367   10769 poseidon.go:67] Benchmark: Time taken for 746 no of pods to get a delta 10.341244356s Start:2017-12-15 20:09:39.057112739 +0000 UTC m=+1886.406838081 End:2017-12-15 20:09:49.398357179 +0000 UTC m=+1896.748082437
+I1215 20:09:49.398413   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 86381 no of pods to get a delta 11m46.431151677s
+I1215 20:10:10.103239   10769 poseidon.go:67] Benchmark: Time taken for 732 no of pods to get a delta 10.70353075s Start:2017-12-15 20:09:59.399697284 +0000 UTC m=+1906.749422615 End:2017-12-15 20:10:10.103228106 +0000 UTC m=+1917.452953365
+I1215 20:10:10.103267   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 87113 no of pods to get a delta 11m57.134682427s
+I1215 20:10:30.542551   10769 poseidon.go:67] Benchmark: Time taken for 772 no of pods to get a delta 10.435022284s Start:2017-12-15 20:10:20.107515861 +0000 UTC m=+1927.457241186 End:2017-12-15 20:10:30.542538212 +0000 UTC m=+1937.892263470
+I1215 20:10:30.542579   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 87885 no of pods to get a delta 12m7.569704711s
+W1215 20:10:46.196212   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22058793 (22064151)
+I1215 20:10:51.281843   10769 poseidon.go:67] Benchmark: Time taken for 716 no of pods to get a delta 10.73813086s Start:2017-12-15 20:10:40.543697741 +0000 UTC m=+1947.893423038 End:2017-12-15 20:10:51.28182864 +0000 UTC m=+1958.631553898
+I1215 20:10:51.281869   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 88601 no of pods to get a delta 12m18.307835571s
+I1215 20:11:11.592694   10769 poseidon.go:67] Benchmark: Time taken for 745 no of pods to get a delta 10.306004657s Start:2017-12-15 20:11:01.28667566 +0000 UTC m=+1968.636400939 End:2017-12-15 20:11:11.592680338 +0000 UTC m=+1978.942405596
+I1215 20:11:11.592725   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 89346 no of pods to get a delta 12m28.613840228s
+I1215 20:11:32.513883   10769 poseidon.go:67] Benchmark: Time taken for 724 no of pods to get a delta 10.919574568s Start:2017-12-15 20:11:21.594296286 +0000 UTC m=+1988.944021611 End:2017-12-15 20:11:32.513870916 +0000 UTC m=+1999.863596179
+I1215 20:11:32.513918   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 90070 no of pods to get a delta 12m39.533414796s
+I1215 20:11:53.095408   10769 poseidon.go:67] Benchmark: Time taken for 462 no of pods to get a delta 10.578490191s Start:2017-12-15 20:11:42.516903553 +0000 UTC m=+2009.866628884 End:2017-12-15 20:11:53.095393817 +0000 UTC m=+2020.445119075
+I1215 20:11:53.095435   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 90532 no of pods to get a delta 12m50.111904987s
+W1215 20:12:00.605889   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22137763 (22145500)
+I1215 20:12:13.095455   10769 poseidon.go:67] Benchmark: Time taken for 167 no of pods to get a delta 9.999206498s Start:2017-12-15 20:12:03.096236489 +0000 UTC m=+2030.445961804 End:2017-12-15 20:12:13.095443043 +0000 UTC m=+2040.445168302
+I1215 20:12:13.095487   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 90699 no of pods to get a delta 13m0.111111485s
+I1215 20:12:33.025416   10769 poseidon.go:67] Benchmark: Time taken for 703 no of pods to get a delta 9.929580828s Start:2017-12-15 20:12:23.095822015 +0000 UTC m=+2050.445547297 End:2017-12-15 20:12:33.025402867 +0000 UTC m=+2060.375128125
+I1215 20:12:33.025445   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 91402 no of pods to get a delta 13m10.040692313s
+I1215 20:12:53.757197   10769 poseidon.go:67] Benchmark: Time taken for 712 no of pods to get a delta 10.730632977s Start:2017-12-15 20:12:43.02654908 +0000 UTC m=+2070.376274385 End:2017-12-15 20:12:53.757182102 +0000 UTC m=+2081.106907362
+I1215 20:12:53.757232   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 92114 no of pods to get a delta 13m20.77132529s
+I1215 20:13:14.894634   10769 poseidon.go:67] Benchmark: Time taken for 754 no of pods to get a delta 11.136311204s Start:2017-12-15 20:13:03.758311548 +0000 UTC m=+2091.108036860 End:2017-12-15 20:13:14.894622805 +0000 UTC m=+2102.244348064
+I1215 20:13:14.894666   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 92868 no of pods to get a delta 13m31.907636494s
+W1215 20:13:17.337929   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22220233 (22228026)
+I1215 20:13:35.858688   10769 poseidon.go:67] Benchmark: Time taken for 730 no of pods to get a delta 10.96286707s Start:2017-12-15 20:13:24.895805612 +0000 UTC m=+2112.245530910 End:2017-12-15 20:13:35.858672723 +0000 UTC m=+2123.208397980
+I1215 20:13:35.858718   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 93598 no of pods to get a delta 13m42.870503564s
+I1215 20:13:55.628378   10769 poseidon.go:67] Benchmark: Time taken for 666 no of pods to get a delta 9.768474447s Start:2017-12-15 20:13:45.859889899 +0000 UTC m=+2133.209615191 End:2017-12-15 20:13:55.628364377 +0000 UTC m=+2142.978089638
+I1215 20:13:55.628407   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 94264 no of pods to get a delta 13m52.638978011s
+I1215 20:14:15.936376   10769 poseidon.go:67] Benchmark: Time taken for 541 no of pods to get a delta 10.306868705s Start:2017-12-15 20:14:05.629493496 +0000 UTC m=+2152.979218776 End:2017-12-15 20:14:15.936362223 +0000 UTC m=+2163.286087481
+I1215 20:14:15.936406   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 94805 no of pods to get a delta 14m2.945846716s
+W1215 20:14:33.272705   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22303905 (22312873)
+I1215 20:14:38.077087   10769 poseidon.go:67] Benchmark: Time taken for 571 no of pods to get a delta 12.139834894s Start:2017-12-15 20:14:25.937236717 +0000 UTC m=+2173.286962010 End:2017-12-15 20:14:38.077071602 +0000 UTC m=+2185.426796904
+I1215 20:14:38.077191   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 95376 no of pods to get a delta 14m15.08568161s
+I1215 20:14:58.249839   10769 poseidon.go:67] Benchmark: Time taken for 569 no of pods to get a delta 10.171451762s Start:2017-12-15 20:14:48.078375512 +0000 UTC m=+2195.428100803 End:2017-12-15 20:14:58.249827308 +0000 UTC m=+2205.599552565
+I1215 20:14:58.249866   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 95945 no of pods to get a delta 14m25.257133372s
+I1215 20:15:18.800834   10769 poseidon.go:67] Benchmark: Time taken for 700 no of pods to get a delta 10.549971486s Start:2017-12-15 20:15:08.250849823 +0000 UTC m=+2215.600575125 End:2017-12-15 20:15:18.800821354 +0000 UTC m=+2226.150546611
+I1215 20:15:18.800863   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 96645 no of pods to get a delta 14m35.807104858s
+I1215 20:15:38.883573   10769 poseidon.go:67] Benchmark: Time taken for 670 no of pods to get a delta 10.081473015s Start:2017-12-15 20:15:28.802087551 +0000 UTC m=+2236.151812891 End:2017-12-15 20:15:38.883560648 +0000 UTC m=+2246.233285906
+I1215 20:15:38.883608   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 97315 no of pods to get a delta 14m45.888577873s
+W1215 20:15:42.946626   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22384883 (22388670)
+I1215 20:15:59.709559   10769 poseidon.go:67] Benchmark: Time taken for 624 no of pods to get a delta 10.824919101s Start:2017-12-15 20:15:48.88463006 +0000 UTC m=+2256.234355370 End:2017-12-15 20:15:59.709549212 +0000 UTC m=+2267.059274471
+I1215 20:15:59.709598   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 97939 no of pods to get a delta 14m56.713496974s
+I1215 20:16:19.322170   10769 poseidon.go:67] Benchmark: Time taken for 663 no of pods to get a delta 9.611605772s Start:2017-12-15 20:16:09.710554762 +0000 UTC m=+2277.060280068 End:2017-12-15 20:16:19.322160582 +0000 UTC m=+2286.671885840
+I1215 20:16:19.322205   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 98602 no of pods to get a delta 15m6.325102746s
+I1215 20:16:39.145412   10769 poseidon.go:67] Benchmark: Time taken for 663 no of pods to get a delta 9.822132277s Start:2017-12-15 20:16:29.323266782 +0000 UTC m=+2296.672992112 End:2017-12-15 20:16:39.14539913 +0000 UTC m=+2306.495124389
+I1215 20:16:39.145445   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99265 no of pods to get a delta 15m16.147235023s
+W1215 20:16:53.078892   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22461613 (22466685)
+I1215 20:16:59.736564   10769 poseidon.go:67] Benchmark: Time taken for 615 no of pods to get a delta 10.590024921s Start:2017-12-15 20:16:49.146526075 +0000 UTC m=+2316.496251356 End:2017-12-15 20:16:59.736551019 +0000 UTC m=+2327.086276277
+I1215 20:16:59.736593   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.737259944s
+I1215 20:17:09.745669   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.892594ms Start:2017-12-15 20:17:09.737765184 +0000 UTC m=+2337.087490507 End:2017-12-15 20:17:09.745657827 +0000 UTC m=+2337.095383101
+I1215 20:17:09.745702   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.745152538s
+I1215 20:17:19.753414   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.595315ms Start:2017-12-15 20:17:19.745806311 +0000 UTC m=+2347.095531593 End:2017-12-15 20:17:19.753401649 +0000 UTC m=+2347.103126908
+I1215 20:17:19.753445   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.752747853s
+I1215 20:17:29.761959   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.383752ms Start:2017-12-15 20:17:29.753562031 +0000 UTC m=+2357.103287359 End:2017-12-15 20:17:29.761945854 +0000 UTC m=+2357.111671111
+I1215 20:17:29.761993   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.761131605s
+I1215 20:17:39.769197   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.074166ms Start:2017-12-15 20:17:39.762111313 +0000 UTC m=+2367.111836617 End:2017-12-15 20:17:39.769185526 +0000 UTC m=+2367.118910783
+I1215 20:17:39.769223   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.768205771s
+I1215 20:17:49.776693   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.308234ms Start:2017-12-15 20:17:49.7693708 +0000 UTC m=+2377.119096120 End:2017-12-15 20:17:49.776679097 +0000 UTC m=+2377.126404354
+I1215 20:17:49.776722   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.775514005s
+I1215 20:17:59.784192   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.331594ms Start:2017-12-15 20:17:59.776849055 +0000 UTC m=+2387.126574386 End:2017-12-15 20:17:59.784180723 +0000 UTC m=+2387.133905980
+I1215 20:17:59.784222   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.782845599s
+W1215 20:18:02.557257   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22539204 (22542863)
+I1215 20:18:09.791588   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.242263ms Start:2017-12-15 20:18:09.784330685 +0000 UTC m=+2397.134056001 End:2017-12-15 20:18:09.791572993 +0000 UTC m=+2397.141298264
+I1215 20:18:09.791627   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.790087862s
+I1215 20:18:19.801265   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 9.489607ms Start:2017-12-15 20:18:19.791759169 +0000 UTC m=+2407.141484460 End:2017-12-15 20:18:19.801248787 +0000 UTC m=+2407.150974067
+I1215 20:18:19.801297   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.799577469s
+I1215 20:18:29.809690   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.263731ms Start:2017-12-15 20:18:29.80141286 +0000 UTC m=+2417.151138171 End:2017-12-15 20:18:29.809676631 +0000 UTC m=+2417.159401902
+I1215 20:18:29.809723   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.8078412s
+I1215 20:18:39.817638   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.779941ms Start:2017-12-15 20:18:39.809844755 +0000 UTC m=+2427.159570077 End:2017-12-15 20:18:39.817624752 +0000 UTC m=+2427.167350018
+I1215 20:18:39.817673   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.815621141s
+I1215 20:18:49.826357   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.516788ms Start:2017-12-15 20:18:49.817827692 +0000 UTC m=+2437.167553005 End:2017-12-15 20:18:49.826344536 +0000 UTC m=+2437.176069793
+I1215 20:18:49.826389   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.824137929s
+I1215 20:18:59.834422   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.8622ms Start:2017-12-15 20:18:59.826516768 +0000 UTC m=+2447.176242093 End:2017-12-15 20:18:59.834379035 +0000 UTC m=+2447.184104293
+I1215 20:18:59.834455   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.832000129s
+I1215 20:19:09.842438   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.867714ms Start:2017-12-15 20:19:09.8345578 +0000 UTC m=+2457.184283084 End:2017-12-15 20:19:09.842425527 +0000 UTC m=+2457.192150798
+I1215 20:19:09.842472   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.839867843s
+W1215 20:19:10.464532   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22609964 (22610297)
+I1215 20:19:19.850306   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.712389ms Start:2017-12-15 20:19:19.842582958 +0000 UTC m=+2467.192308253 End:2017-12-15 20:19:19.850295383 +0000 UTC m=+2467.200020642
+I1215 20:19:19.850339   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 99880 no of pods to get a delta 15m26.847580232s
+I1215 20:19:39.970252   10769 poseidon.go:67] Benchmark: Time taken for 120 no of pods to get a delta 10.119796209s Start:2017-12-15 20:19:29.850442034 +0000 UTC m=+2477.200167355 End:2017-12-15 20:19:39.970238305 +0000 UTC m=+2487.319963564
+I1215 20:19:39.970284   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m36.967376441s
+I1215 20:19:49.977598   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 6.984437ms Start:2017-12-15 20:19:49.970601571 +0000 UTC m=+2497.320326856 End:2017-12-15 20:19:49.977586036 +0000 UTC m=+2497.327311293
+I1215 20:19:49.977631   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m36.974360878s
+I1215 20:19:59.985560   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.777272ms Start:2017-12-15 20:19:59.977768383 +0000 UTC m=+2507.327493678 End:2017-12-15 20:19:59.985545679 +0000 UTC m=+2507.335270950
+I1215 20:19:59.985588   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m36.98213815s
+I1215 20:20:09.993638   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.916128ms Start:2017-12-15 20:20:09.985711408 +0000 UTC m=+2517.335436723 End:2017-12-15 20:20:09.993627594 +0000 UTC m=+2517.343352851
+I1215 20:20:09.993665   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m36.990054278s
+I1215 20:20:20.001306   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.495971ms Start:2017-12-15 20:20:19.993798367 +0000 UTC m=+2527.343523666 End:2017-12-15 20:20:20.001294373 +0000 UTC m=+2527.351019637
+I1215 20:20:20.001337   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m36.997550249s
+W1215 20:20:22.536228   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22679614 (22683225)
+I1215 20:20:30.009065   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.580317ms Start:2017-12-15 20:20:30.00147084 +0000 UTC m=+2537.351196136 End:2017-12-15 20:20:30.00905118 +0000 UTC m=+2537.358776453
+I1215 20:20:30.009098   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.005130566s
+I1215 20:20:40.016927   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.699467ms Start:2017-12-15 20:20:40.009214304 +0000 UTC m=+2547.358939629 End:2017-12-15 20:20:40.016913838 +0000 UTC m=+2547.366639096
+I1215 20:20:40.016957   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.012830033s
+I1215 20:20:50.024938   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.813217ms Start:2017-12-15 20:20:50.017104983 +0000 UTC m=+2557.366830318 End:2017-12-15 20:20:50.024918278 +0000 UTC m=+2557.374643535
+I1215 20:20:50.024971   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.02064325s
+I1215 20:21:00.033211   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.091797ms Start:2017-12-15 20:21:00.025102557 +0000 UTC m=+2567.374827868 End:2017-12-15 20:21:00.033194392 +0000 UTC m=+2567.382919665
+I1215 20:21:00.033240   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.028735047s
+I1215 20:21:10.041805   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.432094ms Start:2017-12-15 20:21:10.033358622 +0000 UTC m=+2577.383083912 End:2017-12-15 20:21:10.041790734 +0000 UTC m=+2577.391516006
+I1215 20:21:10.041841   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.037167141s
+I1215 20:21:20.050089   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.121754ms Start:2017-12-15 20:21:20.041954161 +0000 UTC m=+2587.391679492 End:2017-12-15 20:21:20.050075989 +0000 UTC m=+2587.399801246
+I1215 20:21:20.050121   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.045288895s
+I1215 20:21:30.057894   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.662494ms Start:2017-12-15 20:21:30.050219653 +0000 UTC m=+2597.399944932 End:2017-12-15 20:21:30.057882152 +0000 UTC m=+2597.407607426
+I1215 20:21:30.057927   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.052951389s
+W1215 20:21:30.836025   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22750801 (22751717)
+I1215 20:21:40.065583   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.526059ms Start:2017-12-15 20:21:40.058036785 +0000 UTC m=+2607.407762080 End:2017-12-15 20:21:40.06556288 +0000 UTC m=+2607.415288139
+I1215 20:21:40.065621   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.060477448s
+I1215 20:21:50.073341   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.572066ms Start:2017-12-15 20:21:50.065752613 +0000 UTC m=+2617.415477930 End:2017-12-15 20:21:50.073324737 +0000 UTC m=+2617.423049996
+I1215 20:21:50.073367   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.068049514s
+I1215 20:22:00.081078   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.579238ms Start:2017-12-15 20:22:00.073485259 +0000 UTC m=+2627.423210570 End:2017-12-15 20:22:00.081064533 +0000 UTC m=+2627.430789808
+I1215 20:22:00.081114   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.075628752s
+I1215 20:22:10.089319   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.066282ms Start:2017-12-15 20:22:10.081238344 +0000 UTC m=+2637.430963678 End:2017-12-15 20:22:10.089304701 +0000 UTC m=+2637.439029960
+I1215 20:22:10.089351   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.083695034s
+I1215 20:22:20.097173   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.657528ms Start:2017-12-15 20:22:20.089499597 +0000 UTC m=+2647.439224884 End:2017-12-15 20:22:20.097157154 +0000 UTC m=+2647.446882412
+I1215 20:22:20.097210   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.091352562s
+I1215 20:22:30.105391   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.05715ms Start:2017-12-15 20:22:30.097321304 +0000 UTC m=+2657.447046612 End:2017-12-15 20:22:30.105378486 +0000 UTC m=+2657.455103762
+I1215 20:22:30.105426   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.099409712s
+I1215 20:22:40.113540   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.962084ms Start:2017-12-15 20:22:40.105565356 +0000 UTC m=+2667.455290639 End:2017-12-15 20:22:40.113527465 +0000 UTC m=+2667.463252723
+I1215 20:22:40.113575   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.107371796s
+W1215 20:22:40.384708   10769 reflector.go:323] github.com/camsas/poseidon/pkg/k8sclient/nodewatcher.go:205: watch of *v1.Node ended with: too old resource version: 22820198 (22821547)
+I1215 20:22:50.121824   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 8.128308ms Start:2017-12-15 20:22:50.113683057 +0000 UTC m=+2677.463408339 End:2017-12-15 20:22:50.121811387 +0000 UTC m=+2677.471536647
+I1215 20:22:50.121853   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.115500104s
+I1215 20:23:00.129764   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.790577ms Start:2017-12-15 20:23:00.121961943 +0000 UTC m=+2687.471687277 End:2017-12-15 20:23:00.129752596 +0000 UTC m=+2687.479477854
+I1215 20:23:00.129805   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.123290681s
+I1215 20:23:10.137514   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.571175ms Start:2017-12-15 20:23:10.12992578 +0000 UTC m=+2697.479651083 End:2017-12-15 20:23:10.137496999 +0000 UTC m=+2697.487222258
+I1215 20:23:10.137541   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.130861856s
+I1215 20:23:20.145473   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 7.808493ms Start:2017-12-15 20:23:20.137652593 +0000 UTC m=+2707.487377887 End:2017-12-15 20:23:20.145461123 +0000 UTC m=+2707.495186380
+I1215 20:23:20.145508   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.138670349s
+I1215 20:23:30.152491   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 6.855151ms Start:2017-12-15 20:23:30.145623316 +0000 UTC m=+2717.495348625 End:2017-12-15 20:23:30.152478518 +0000 UTC m=+2717.502203776
+I1215 20:23:30.152523   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.1455255s
+I1215 20:23:40.159420   10769 poseidon.go:67] Benchmark: Time taken for 0 no of pods to get a delta 6.769226ms Start:2017-12-15 20:23:40.152636603 +0000 UTC m=+2727.502361894 End:2017-12-15 20:23:40.159405847 +0000 UTC m=+2727.509131120
+I1215 20:23:40.159448   10769 poseidon.go:70] Benchmark: 3) a) Overall Time taken for 100000 no of pods to get a delta 15m37.152294726s

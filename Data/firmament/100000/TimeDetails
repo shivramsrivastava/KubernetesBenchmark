@@ -1,0 +1,50 @@
+kubernetes@kubernetes-kubemark-master:~$ ./running.sh poseidon.yaml 100000
+Time at the start:  19:39:21:962320879
+No of pods pending at the start:  3939
+NUM_PODS to be submitted is  100000
+Inside loop:  19:39:58:224122183  7256
+Inside loop:  19:40:49:508361225  12447
+Inside loop:  19:42:01:123364451  17276
+Inside loop:  19:43:12:531833660  23329
+Inside loop:  19:44:24:361279097  25710
+Inside loop:  19:45:37:611730280  29254
+Inside loop:  19:46:51:164757638  33053
+Inside loop:  19:48:03:124160159  35970
+Inside loop:  19:49:17:691833282  39361
+Inside loop:  19:50:34:431417065  43846
+Inside loop:  19:51:50:498158262  46476
+Inside loop:  19:53:05:927149739  47145
+Inside loop:  19:54:24:220362753  49313
+Inside loop:  19:55:41:250191051  52328
+Inside loop:  19:56:58:569205973  56968
+Inside loop:  19:58:16:482045507  57799
+Inside loop:  19:59:34:669295053  60325
+Inside loop:  20:00:53:155589326  64041
+Inside loop:  20:02:11:895591502  67695
+Inside loop:  20:03:32:590387333  70108
+Inside loop:  20:04:53:669905404  73194
+Inside loop:  20:06:16:053858614  76530
+Inside loop:  20:07:39:820163819  79373
+Inside loop:  20:09:02:623480193  82105
+Inside loop:  20:10:26:837056986  84874
+Inside loop:  20:11:50:986374455  87885
+Inside loop:  20:13:14:741904826  90532
+Inside loop:  20:14:39:666078828  92868
+Inside loop:  20:16:04:681737451  95376
+Inside loop:  20:17:27:775668548  97939
+Inside loop:  20:18:54:760047836  99880
+Inside loop:  20:20:22:700100642  99880
+Inside loop:  20:21:49:629740793  100000
+Time at the end of all pods were in pending state:  20:21:59:631964835
+kubernetes@dedicated-machine:~$ ./poseidon_new_queue -kubeConfig /home/kubernetes/kubeconfig.kubemark -enableLatTest true -podCount 100000 -podPrefixName poseidon -alsologtostderr 2>&1 | tee op
+I1215 20:24:09.796006   25331 podLatency.go:562] Starting latencttest...
+I1215 20:24:09.799281   25331 podLatency.go:230] Starting PodWatcher...
+I1215 20:24:09.799307   25331 podLatency.go:282] Getting pod updates...
+I1215 20:24:41.402894   25331 podLatency.go:291] Starting pod watching workers
+I1215 20:24:41.402941   25331 podLatency.go:297] Stopping pod watcher
+I1215 20:24:41.402945   25331 podLatency.go:298] Shutting down PodWatcher
+I1215 20:24:41.403074   25331 podLatency.go:533] 8
+I1215 20:24:42.432426   25331 podLatency.go:465] schedEvents err<nil>
+I1215 20:24:43.213439   25331 podLatency.go:520] Done processing all the pods
+I1215 20:24:43.248452   25331 podLatency.go:549] 2017-12-15 19:39:04 +0000 UTC 2017-12-15 20:19:41 +0000 UTC Throughput is 40m37s
+
